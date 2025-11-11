@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\c#\SmartHome\SmartHome\SmartHomeSystem\bin\Debug\net8.0\SmartHomeSystem.exe
+C:\Users\User\Desktop\c#\SmartHome\SmartHome\SmartHomeSystem\bin\Debug\net8.0\SmartHomeSystem.deps.json
+C:\Users\User\Desktop\c#\SmartHome\SmartHome\SmartHomeSystem\bin\Debug\net8.0\SmartHomeSystem.runtimeconfig.json
+C:\Users\User\Desktop\c#\SmartHome\SmartHome\SmartHomeSystem\bin\Debug\net8.0\SmartHomeSystem.dll
+C:\Users\User\Desktop\c#\SmartHome\SmartHome\SmartHomeSystem\bin\Debug\net8.0\SmartHomeSystem.pdb
+C:\Users\User\Desktop\c#\SmartHome\SmartHome\SmartHomeSystem\obj\Debug\net8.0\SmartHomeSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\c#\SmartHome\SmartHome\SmartHomeSystem\obj\Debug\net8.0\SmartHomeSystem.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\c#\SmartHome\SmartHome\SmartHomeSystem\obj\Debug\net8.0\SmartHomeSystem.AssemblyInfo.cs
+C:\Users\User\Desktop\c#\SmartHome\SmartHome\SmartHomeSystem\obj\Debug\net8.0\SmartHomeSystem.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\c#\SmartHome\SmartHome\SmartHomeSystem\obj\Debug\net8.0\SmartHomeSystem.dll
+C:\Users\User\Desktop\c#\SmartHome\SmartHome\SmartHomeSystem\obj\Debug\net8.0\refint\SmartHomeSystem.dll
+C:\Users\User\Desktop\c#\SmartHome\SmartHome\SmartHomeSystem\obj\Debug\net8.0\SmartHomeSystem.pdb
+C:\Users\User\Desktop\c#\SmartHome\SmartHome\SmartHomeSystem\obj\Debug\net8.0\SmartHomeSystem.genruntimeconfig.cache
+C:\Users\User\Desktop\c#\SmartHome\SmartHome\SmartHomeSystem\obj\Debug\net8.0\ref\SmartHomeSystem.dll
