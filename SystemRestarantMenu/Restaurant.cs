@@ -15,8 +15,6 @@ namespace SystemRestarantMenu
 
         public Restaurant()
         {
-            MenuItems = new List<Menu>();
-            Tables = new List<Table>();
         }
 
         // Метод отримання столика (замість FirstOrDefault використовуємо цикл)

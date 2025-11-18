@@ -71,24 +71,12 @@ namespace SystemRestarantMenu
 
             Console.WriteLine("--------------------");
 
-            // Перевірка item1
-            if (item1 is Dish dishItem1)
+            foreach (var item in table5_order1.Items)
             {
-                Console.WriteLine($"{item1.Name} - Тип страви: {dishItem1.Category}");
-            }
-            else if (item1 is Drink drinkItem1)
-            {
-                Console.WriteLine($"{item1.Name} - Об’єм напою: {drinkItem1.Volume} мл");
-            }
-
-            // Перевірка item2
-            if (item2 is Dish dishItem2)
-            {
-                Console.WriteLine($"{item2.Name} - Тип страви: {dishItem2.Category}");
-            }
-            else if (item2 is Drink drinkItem2)
-            {
-                Console.WriteLine($"{item2.Name} - Об’єм напою: {drinkItem2.Volume} мл");
+                if (item is Dish dish)
+                    Console.WriteLine($"{item.Name} - Тип страви: {dish.Category}");
+                else if (item is Drink drink)
+                    Console.WriteLine($"{item.Name} - Об’єм: {drink.Volume} мл, {(drink.IsAlcoholic ? "з алкоголем" : "без алкоголю")}");
             }
 
 
