@@ -15,6 +15,8 @@ namespace SystemRestarantMenu
         {
             TableNumber = tableNumer; 
         }
+
+        // Метод для об'єднання замовлень за столиком
         public Order MergeOrders(int newOrderId)
         {
             Order merged = new Order(newOrderId, TableNumber);

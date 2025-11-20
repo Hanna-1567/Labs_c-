@@ -13,6 +13,7 @@ namespace SystemRestarantMenu
             Restaurant restaurant = new Restaurant();
 
             // -------------------- Додаємо меню --------------------
+
             restaurant.MenuItems.Add(new Dish("Борщ", 120, "Перше", "Суп"));
             restaurant.MenuItems.Add(new Dish("Вареники з картоплею", 150, "Друге", "Основна страва"));
             restaurant.MenuItems.Add(new Dish("Салат Олів'є", 100, "Закуска", "Салат"));
@@ -37,12 +38,15 @@ namespace SystemRestarantMenu
 
             Console.WriteLine("---------------------\n");
 
+            Console.WriteLine("Замовлення 1 для столика 2:");
+
             Order order1 = restaurant.CreateOrder(tableNumber);
             order1.AddItem(restaurant.MenuItems[0]);
             order1.AddItem(restaurant.MenuItems[1]);
             order1.DisplayOrder();
 
             Console.WriteLine("---------------------\n");
+            Console.WriteLine("Замовлення 2 для столика 2:");
 
             Order order2 = restaurant.CreateOrder(tableNumber);
             order2.AddItem(restaurant.MenuItems[3]);
@@ -53,6 +57,16 @@ namespace SystemRestarantMenu
             order2.DisplayOrder();
 
             Console.WriteLine("---------------------\n");
+
+            Console.WriteLine("Об'єднане замовлення: \n");
+           
+            int mergedOrderId = 999;
+
+            Order mergedOrder = table.MergeOrders(mergedOrderId);
+            mergedOrder.DisplayOrder();
+
+            Console.WriteLine("---------------------\n");
+
             // -------------------- СТОЛИК №5 --------------------
 
             int tableNumber2 = 5;

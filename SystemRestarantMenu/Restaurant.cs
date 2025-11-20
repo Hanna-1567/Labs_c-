@@ -17,7 +17,7 @@ namespace SystemRestarantMenu
         {
         }
 
-        // Метод отримання столика (замість FirstOrDefault використовуємо цикл)
+        // Метод отримання столика 
         public Table GetTable(int tableNumber)
         {
 
@@ -33,7 +33,7 @@ namespace SystemRestarantMenu
             Tables.Add(newTable);
             return newTable;
         }
-
+        // Метод створення замовлення
         public Order CreateOrder(int tableNumber)
         {
             Order newOrder = new Order(nextOrderId, tableNumber);
@@ -44,6 +44,7 @@ namespace SystemRestarantMenu
 
             return newOrder;
         }
+        // Вивід меню ресторану
         public void DisplayMenu()
         {
             Console.WriteLine("--- МЕНЮ РЕСТОРАНУ ---");
@@ -58,8 +59,8 @@ namespace SystemRestarantMenu
             bool found = false;
             foreach (Menu item in MenuItems)
             {
-                // Перевіряємо, чи міститься текст у назві або категорії
-                if (item.Name.Contains(text) || item.Category.Contains(text))
+                // Перевіряємо, чи міститься текст у назві
+                if (item.Name.Contains(text))
                 {
                     item.DisplayInfo();
                     found = true;
@@ -71,7 +72,7 @@ namespace SystemRestarantMenu
             }
             Console.WriteLine();
         }
-
+        // Вивід усіх замовлень
         public void ShowAllOrders()
         {
             Console.WriteLine("\n--- Усі активні замовлення ---");
